@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4facfe,#00c6fb);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:90%;
+    max-width:450px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+h1{
+    margin-bottom:20px;
+    color:#333;
+}
+
+.search-box{
+    display:flex;
+    gap:10px;
+}
+
+input{
+    flex:1;
+    padding:12px;
+    border-radius:10px;
+    border:2px solid #ddd;
+    outline:none;
+    font-size:16px;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:10px;
+    background:#2196f3;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#1976d2;
+}
+
+#weather{
+    margin-top:30px;
+}
+
+#weather h2{
+    color:#333;
+    margin-bottom:10px;
+}
+
+#weather h3{
+    font-size:40px;
+    color:#2196f3;
+    margin-bottom:10px;
+}
+
+#weather p{
+    margin:8px 0;
+    color:#555;
+}
