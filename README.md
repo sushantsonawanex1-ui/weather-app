@@ -26,7 +26,7 @@ A clean and responsive Weather App built using HTML, CSS, and JavaScript. It fet
 
 ## 📸 Screenshot
 
-![Weather App](Screenshot_20260705_202139.jpg)
+![Weather App](Screenshot_20260705_202223.jpg)
 
 ---
 
